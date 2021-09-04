@@ -1,4 +1,4 @@
-print ("¡Bienvenido a nuestra calculadora matematica!")
+\print ("¡Bienvenido a nuestra calculadora matematica!")
 def Menu():
 print """
 Calculadora
@@ -32,6 +32,10 @@ y = int(input("Ingrese Otro Numero\n"))
 if (opc==1):
 print "La Suma es:", x+y
 
+"""Funcion para restar"""
+opc = int(input("Selecione Opcion\n"))
+elif(opc==2):
+print "La Resta es:",x-y
 
 
 
