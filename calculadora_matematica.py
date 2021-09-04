@@ -1,4 +1,4 @@
-\print ("¡Bienvenido a nuestra calculadora matematica!")
+print ("¡Bienvenido a nuestra calculadora matematica!")
 def Menu():
 print """
 Calculadora
@@ -37,6 +37,9 @@ opc = int(input("Selecione Opcion\n"))
 elif(opc==2):
 print "La Resta es:",x-y
 
-
+"""Funcion para multiplicar"""
+opc = int(input("Selecione Opcion\n"))
+elif(opc==3):
+print "La Multiplicacion es:",x*y
 
 Calculadora()
