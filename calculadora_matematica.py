@@ -42,4 +42,14 @@ opc = int(input("Selecione Opcion\n"))
 elif(opc==3):
 print "La Multiplicacion es:",x*y
 
+"""Funcion para division"""
+opc = int(input("Selecione Opcion\n"))
+elif(opc==4):
+try:
+print "La Division es:", x/y
+opc = int(input("Selecione Opcion\n"))
+except ZeroDivisionError:
+print "No se Permite la Division Entre 0"
+opc = int(input("Selecione Opcion\n"))
+
 Calculadora()
